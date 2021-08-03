@@ -1,0 +1,23 @@
+{
+  "name": "udemi",
+  "version": "1.0.0",
+  "description": "udemi",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GilSFR/udemi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GilSFR/udemi/issues"
+  },
+  "homepage": "https://github.com/GilSFR/udemi#readme"
+}

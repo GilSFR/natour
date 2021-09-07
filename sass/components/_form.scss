@@ -17,6 +17,10 @@
         display: block; //comme ca le labell passe en dessous
         transition: all .3s;
 
+        @include respond(tab-port) {
+            width: 100%;
+        }
+
         &:focus {
             outline: none; // ligne définie par défault, ne jamais laisser un input sans rien dans le focus !
             box-shadow: 0 1rem 2rem rgba($color-black,.1);
@@ -53,6 +57,11 @@
     &__radio-group {
         width: 49%;
         display: inline-block;
+
+        @include respond(tab-port) {
+            width: 100%;
+            margin-bottom: 2rem;
+        }
 
     }
 
